@@ -22,8 +22,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/abdullayev13/sonic/internal/rt"
-	"github.com/abdullayev13/sonic/loader"
+	"github.com/abdullayev13/qsonic/internal/rt"
+	"github.com/abdullayev13/qsonic/loader"
 	"github.com/twitchyliquid64/golang-asm/obj"
 	"github.com/twitchyliquid64/golang-asm/obj/x86"
 )
@@ -217,7 +217,7 @@ func (self *BaseAssembler) Init(f func()) {
 
 var jitLoader = loader.Loader{
 	Name: "sonic.jit.",
-	File: "github.com/abdullayev13/sonic/jit.go",
+	File: "github.com/abdullayev13/qsonic/jit.go",
 	Options: loader.Options{
 		NoPreempt: true,
 	},

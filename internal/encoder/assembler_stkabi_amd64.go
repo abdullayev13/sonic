@@ -25,14 +25,14 @@ import (
 	"strconv"
 	"unsafe"
 
-	"github.com/abdullayev13/sonic/internal/cpu"
-	"github.com/abdullayev13/sonic/internal/jit"
-	"github.com/abdullayev13/sonic/internal/native/types"
+	"github.com/abdullayev13/qsonic/internal/cpu"
+	"github.com/abdullayev13/qsonic/internal/jit"
+	"github.com/abdullayev13/qsonic/internal/native/types"
 	"github.com/twitchyliquid64/golang-asm/obj"
 	"github.com/twitchyliquid64/golang-asm/obj/x86"
 
-	"github.com/abdullayev13/sonic/internal/native"
-	"github.com/abdullayev13/sonic/internal/rt"
+	"github.com/abdullayev13/qsonic/internal/native"
+	"github.com/abdullayev13/qsonic/internal/rt"
 )
 
 /** Register Allocations

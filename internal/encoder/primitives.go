@@ -21,9 +21,9 @@ import (
 	"encoding/json"
 	"unsafe"
 
-	"github.com/abdullayev13/sonic/internal/jit"
-	"github.com/abdullayev13/sonic/internal/native"
-	"github.com/abdullayev13/sonic/internal/rt"
+	"github.com/abdullayev13/qsonic/internal/jit"
+	"github.com/abdullayev13/qsonic/internal/native"
+	"github.com/abdullayev13/qsonic/internal/rt"
 )
 
 /** Encoder Primitives **/

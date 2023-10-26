@@ -17,9 +17,9 @@
 package utf8
 
 import (
-	"github.com/abdullayev13/sonic/internal/native"
-	"github.com/abdullayev13/sonic/internal/native/types"
-	"github.com/abdullayev13/sonic/internal/rt"
+	"github.com/abdullayev13/qsonic/internal/native"
+	"github.com/abdullayev13/qsonic/internal/native/types"
+	"github.com/abdullayev13/qsonic/internal/rt"
 )
 
 // CorrectWith corrects the invalid utf8 byte with repl string.

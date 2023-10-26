@@ -6,7 +6,7 @@
 package avx
 
 import (
-	"github.com/abdullayev13/sonic/loader"
+	"github.com/abdullayev13/qsonic/loader"
 )
 
 const (

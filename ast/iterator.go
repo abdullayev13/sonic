@@ -19,7 +19,7 @@ package ast
 import (
 	"fmt"
 
-	"github.com/abdullayev13/sonic/internal/native/types"
+	"github.com/abdullayev13/qsonic/internal/native/types"
 )
 
 type Pair struct {

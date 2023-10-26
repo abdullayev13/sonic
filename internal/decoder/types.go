@@ -23,7 +23,7 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/abdullayev13/sonic/internal/rt"
+	"github.com/abdullayev13/qsonic/internal/rt"
 )
 
 var (

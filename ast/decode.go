@@ -22,8 +22,8 @@ import (
 	"strconv"
 	"unsafe"
 
-	"github.com/abdullayev13/sonic/internal/native/types"
-	"github.com/abdullayev13/sonic/internal/rt"
+	"github.com/abdullayev13/qsonic/internal/native/types"
+	"github.com/abdullayev13/qsonic/internal/rt"
 )
 
 const _blankCharsMask = (1 << ' ') | (1 << '\t') | (1 << '\r') | (1 << '\n')

@@ -5,7 +5,7 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/abdullayev13/sonic/internal/native/types"
+	"github.com/abdullayev13/qsonic/internal/native/types"
 )
 
 func newError(err types.ParsingError, msg string) *Node {

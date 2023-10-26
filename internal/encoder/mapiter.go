@@ -22,8 +22,8 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/abdullayev13/sonic/internal/native"
-	"github.com/abdullayev13/sonic/internal/rt"
+	"github.com/abdullayev13/qsonic/internal/native"
+	"github.com/abdullayev13/qsonic/internal/rt"
 )
 
 type _MapPair struct {

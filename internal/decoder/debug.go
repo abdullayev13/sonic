@@ -22,7 +22,7 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/abdullayev13/sonic/internal/jit"
+	"github.com/abdullayev13/qsonic/internal/jit"
 )
 
 var (

@@ -24,9 +24,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/abdullayev13/sonic/internal/jit"
-	"github.com/abdullayev13/sonic/internal/native"
-	"github.com/abdullayev13/sonic/internal/native/types"
+	"github.com/abdullayev13/qsonic/internal/jit"
+	"github.com/abdullayev13/qsonic/internal/native"
+	"github.com/abdullayev13/qsonic/internal/native/types"
 	"github.com/twitchyliquid64/golang-asm/obj"
 )
 

@@ -23,11 +23,11 @@ import (
 	"runtime"
 	"unsafe"
 
-	"github.com/abdullayev13/sonic/encoder"
-	"github.com/abdullayev13/sonic/internal/native"
-	"github.com/abdullayev13/sonic/internal/native/types"
-	"github.com/abdullayev13/sonic/internal/rt"
-	uq "github.com/abdullayev13/sonic/unquote"
+	"github.com/abdullayev13/qsonic/encoder"
+	"github.com/abdullayev13/qsonic/internal/native"
+	"github.com/abdullayev13/qsonic/internal/native/types"
+	"github.com/abdullayev13/qsonic/internal/rt"
+	uq "github.com/abdullayev13/qsonic/unquote"
 	"github.com/chenzhuoyu/base64x"
 )
 

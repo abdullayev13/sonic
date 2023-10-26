@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"unsafe"
 
-	"github.com/abdullayev13/sonic/loader"
+	"github.com/abdullayev13/qsonic/loader"
 )
 
 //go:nosplit

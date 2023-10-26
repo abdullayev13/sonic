@@ -24,8 +24,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/abdullayev13/sonic/internal/native/types"
-	"github.com/abdullayev13/sonic/internal/rt"
+	"github.com/abdullayev13/qsonic/internal/native/types"
+	"github.com/abdullayev13/qsonic/internal/rt"
 )
 
 type SyntaxError struct {

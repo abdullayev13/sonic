@@ -1,4 +1,4 @@
-module github.com/abdullayev13/sonic
+module github.com/abdullayev13/qsonic
 
 go 1.21
 

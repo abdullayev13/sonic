@@ -20,7 +20,7 @@
 package encoder
 
 import (
-	"github.com/abdullayev13/sonic/internal/encoder"
+	"github.com/abdullayev13/qsonic/internal/encoder"
 )
 
 // Encoder represents a specific set of encoder configurations.

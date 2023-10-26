@@ -20,7 +20,7 @@
 package decoder
 
 import (
-	"github.com/abdullayev13/sonic/internal/decoder"
+	"github.com/abdullayev13/qsonic/internal/decoder"
 )
 
 // Decoder is the decoder context object

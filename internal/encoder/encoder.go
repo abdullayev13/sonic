@@ -23,11 +23,11 @@ import (
 	"runtime"
 	"unsafe"
 
-	"github.com/abdullayev13/sonic/internal/native"
-	"github.com/abdullayev13/sonic/internal/native/types"
-	"github.com/abdullayev13/sonic/internal/rt"
-	"github.com/abdullayev13/sonic/option"
-	"github.com/abdullayev13/sonic/utf8"
+	"github.com/abdullayev13/qsonic/internal/native"
+	"github.com/abdullayev13/qsonic/internal/native/types"
+	"github.com/abdullayev13/qsonic/internal/rt"
+	"github.com/abdullayev13/qsonic/option"
+	"github.com/abdullayev13/qsonic/utf8"
 )
 
 // Options is a set of encoding options.

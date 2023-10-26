@@ -19,7 +19,7 @@ package sonic
 import (
 	"io"
 
-	"github.com/abdullayev13/sonic/ast"
+	"github.com/abdullayev13/qsonic/ast"
 )
 
 // Config is a combination of sonic/encoder.Options and sonic/decoder.Options

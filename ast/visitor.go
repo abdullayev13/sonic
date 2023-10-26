@@ -19,7 +19,7 @@ package ast
 import (
 	"encoding/json"
 
-	"github.com/abdullayev13/sonic/internal/native/types"
+	"github.com/abdullayev13/qsonic/internal/native/types"
 )
 
 // Visitor handles the callbacks during preorder traversal of a JSON AST.

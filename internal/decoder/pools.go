@@ -20,9 +20,9 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/abdullayev13/sonic/internal/caching"
-	"github.com/abdullayev13/sonic/internal/native/types"
-	"github.com/abdullayev13/sonic/internal/rt"
+	"github.com/abdullayev13/qsonic/internal/caching"
+	"github.com/abdullayev13/qsonic/internal/native/types"
+	"github.com/abdullayev13/qsonic/internal/rt"
 )
 
 const (

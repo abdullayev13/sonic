@@ -23,9 +23,9 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/abdullayev13/sonic/internal/resolver"
-	"github.com/abdullayev13/sonic/internal/rt"
-	"github.com/abdullayev13/sonic/option"
+	"github.com/abdullayev13/qsonic/internal/resolver"
+	"github.com/abdullayev13/qsonic/internal/rt"
+	"github.com/abdullayev13/qsonic/option"
 )
 
 type _Op uint8

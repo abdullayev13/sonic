@@ -25,7 +25,7 @@ import (
 
 	_ "github.com/chenzhuoyu/base64x"
 
-	"github.com/abdullayev13/sonic/internal/rt"
+	"github.com/abdullayev13/qsonic/internal/rt"
 )
 
 //go:linkname _subr__b64decode github.com/chenzhuoyu/base64x._subr__b64decode
