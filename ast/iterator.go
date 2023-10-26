@@ -19,7 +19,7 @@ package ast
 import (
 	"fmt"
 
-	"github.com/go-shafaq/sonic/internal/native/types"
+	"github.com/abdullayev13/sonic/internal/native/types"
 )
 
 type Pair struct {

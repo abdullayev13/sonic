@@ -19,8 +19,8 @@ package ast
 import (
 	"fmt"
 
-	"github.com/go-shafaq/sonic/internal/native/types"
-	"github.com/go-shafaq/sonic/internal/rt"
+	"github.com/abdullayev13/sonic/internal/native/types"
+	"github.com/abdullayev13/sonic/internal/rt"
 )
 
 const (

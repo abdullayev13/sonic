@@ -23,11 +23,11 @@ import (
 	"runtime"
 	"unsafe"
 
-	"github.com/bytedance/sonic/option"
-	"github.com/bytedance/sonic/utf8"
-	"github.com/go-shafaq/sonic/internal/native"
-	"github.com/go-shafaq/sonic/internal/native/types"
-	"github.com/go-shafaq/sonic/internal/rt"
+	"github.com/abdullayev13/sonic/internal/native"
+	"github.com/abdullayev13/sonic/internal/native/types"
+	"github.com/abdullayev13/sonic/internal/rt"
+	"github.com/abdullayev13/sonic/option"
+	"github.com/abdullayev13/sonic/utf8"
 )
 
 // Options is a set of encoding options.

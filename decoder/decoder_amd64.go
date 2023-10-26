@@ -20,7 +20,7 @@
 package decoder
 
 import (
-	"github.com/go-shafaq/sonic/internal/decoder"
+	"github.com/abdullayev13/sonic/internal/decoder"
 )
 
 // Decoder is the decoder context object

@@ -20,8 +20,8 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/go-shafaq/sonic/internal/abi"
-	"github.com/go-shafaq/sonic/internal/rt"
+	"github.com/abdullayev13/sonic/internal/abi"
+	"github.com/abdullayev13/sonic/internal/rt"
 )
 
 var _C_Redzone = []bool{false, false, false, false}

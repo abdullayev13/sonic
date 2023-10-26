@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"unsafe"
 
-	"github.com/go-shafaq/sonic/internal/rt"
+	"github.com/abdullayev13/sonic/internal/rt"
 )
 
 var _ERR_too_deep = &json.UnsupportedValueError{

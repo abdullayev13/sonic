@@ -26,8 +26,8 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/bytedance/sonic/option"
-	"github.com/go-shafaq/sonic/internal/native/types"
+	"github.com/abdullayev13/sonic/internal/native/types"
+	"github.com/abdullayev13/sonic/option"
 )
 
 func init() {

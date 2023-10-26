@@ -20,9 +20,9 @@ import (
 	"runtime"
 	"unsafe"
 
-	"github.com/go-shafaq/sonic/internal/native"
-	"github.com/go-shafaq/sonic/internal/native/types"
-	"github.com/go-shafaq/sonic/internal/rt"
+	"github.com/abdullayev13/sonic/internal/native"
+	"github.com/abdullayev13/sonic/internal/native/types"
+	"github.com/abdullayev13/sonic/internal/rt"
 )
 
 func String(s string) (ret string, err types.ParsingError) {

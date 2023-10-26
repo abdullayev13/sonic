@@ -25,7 +25,7 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/go-shafaq/sonic/internal/jit"
+	"github.com/abdullayev13/sonic/internal/jit"
 )
 
 var (

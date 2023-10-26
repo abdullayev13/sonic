@@ -25,7 +25,7 @@ import (
 	"io"
 	"reflect"
 
-	"github.com/bytedance/sonic/option"
+	"github.com/abdullayev13/sonic/option"
 )
 
 func init() {

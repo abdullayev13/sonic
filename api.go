@@ -19,7 +19,7 @@ package sonic
 import (
 	"io"
 
-	"github.com/go-shafaq/sonic/ast"
+	"github.com/abdullayev13/sonic/ast"
 )
 
 // Config is a combination of sonic/encoder.Options and sonic/decoder.Options

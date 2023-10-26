@@ -26,11 +26,11 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/go-shafaq/sonic/internal/caching"
-	"github.com/go-shafaq/sonic/internal/jit"
-	"github.com/go-shafaq/sonic/internal/native"
-	"github.com/go-shafaq/sonic/internal/native/types"
-	"github.com/go-shafaq/sonic/internal/rt"
+	"github.com/abdullayev13/sonic/internal/caching"
+	"github.com/abdullayev13/sonic/internal/jit"
+	"github.com/abdullayev13/sonic/internal/native"
+	"github.com/abdullayev13/sonic/internal/native/types"
+	"github.com/abdullayev13/sonic/internal/rt"
 	"github.com/twitchyliquid64/golang-asm/obj"
 )
 

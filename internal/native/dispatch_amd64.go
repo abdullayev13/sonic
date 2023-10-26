@@ -19,13 +19,13 @@ package native
 import (
 	"unsafe"
 
-	"github.com/bytedance/sonic/loader"
-	"github.com/go-shafaq/sonic/internal/cpu"
-	"github.com/go-shafaq/sonic/internal/native/avx"
-	"github.com/go-shafaq/sonic/internal/native/avx2"
-	"github.com/go-shafaq/sonic/internal/native/sse"
-	"github.com/go-shafaq/sonic/internal/native/types"
-	"github.com/go-shafaq/sonic/internal/rt"
+	"github.com/abdullayev13/sonic/internal/cpu"
+	"github.com/abdullayev13/sonic/internal/native/avx"
+	"github.com/abdullayev13/sonic/internal/native/avx2"
+	"github.com/abdullayev13/sonic/internal/native/sse"
+	"github.com/abdullayev13/sonic/internal/native/types"
+	"github.com/abdullayev13/sonic/internal/rt"
+	"github.com/abdullayev13/sonic/loader"
 )
 
 const (

@@ -21,8 +21,8 @@ import (
 	"encoding/json"
 	"unsafe"
 
-	"github.com/go-shafaq/sonic/internal/native"
-	"github.com/go-shafaq/sonic/internal/rt"
+	"github.com/abdullayev13/sonic/internal/native"
+	"github.com/abdullayev13/sonic/internal/rt"
 )
 
 func decodeTypedPointer(s string, i int, vt *rt.GoType, vp unsafe.Pointer, sb *_Stack, fv uint64) (int, error) {

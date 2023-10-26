@@ -19,7 +19,7 @@ package decoder
 import (
 	"unsafe"
 
-	"github.com/bytedance/sonic/loader"
+	"github.com/abdullayev13/sonic/loader"
 )
 
 //go:nosplit

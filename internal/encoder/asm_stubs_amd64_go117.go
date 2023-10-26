@@ -21,7 +21,7 @@ import (
 	"strconv"
 	"unsafe"
 
-	"github.com/go-shafaq/sonic/internal/jit"
+	"github.com/abdullayev13/sonic/internal/jit"
 	"github.com/twitchyliquid64/golang-asm/obj"
 	"github.com/twitchyliquid64/golang-asm/obj/x86"
 )

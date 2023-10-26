@@ -3,13 +3,13 @@ package main
 import (
 	"fmt"
 	json "github.com/go-shafaq/encoding-json"
-
-	//_ "github.com/go-shafaq/encoding-json"
-	"github.com/go-shafaq/sonic"
 	"io/fs"
 	"io/ioutil"
 	"os"
 	"regexp"
+
+	//_ "github.com/go-shafaq/encoding-json"
+	"github.com/abdullayev13/sonic"
 	"strings"
 )
 
@@ -42,7 +42,7 @@ const (
 	standsJsonPkg = `encoding/json`
 	customJsonPkg = `github.com/go-shafaq/encoding-json`
 	go_shafaqPkg  = `github.com/go-shafaq/sonic`
-	bytedancePkg  = `github.com/bytedance/sonic`
+	bytedancePkg  = `github.com/abdullayev13/sonic`
 	currFile      = `makeit/main.go`
 )
 
@@ -54,7 +54,7 @@ func ReplaceAll(path string) {
 
 	//output := strings.ReplaceAll(string(input), customJsonPkg, standsJsonPkg)
 	//output = strings.ReplaceAll(output, go_shafaqPkg, bytedancePkg)
-	output := strings.ReplaceAll(string(input), `bytedance/sonic/internal`, `go-shafaq/sonic/internal`)
+	output := strings.ReplaceAll(string(input), `bytedance/sonic`, `go-shafaq/sonic`)
 	err = ioutil.WriteFile(path, []byte(output), 0644)
 	if err != nil {
 		panic(err)

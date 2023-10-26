@@ -23,12 +23,12 @@ import (
 	"runtime"
 	"unsafe"
 
-	uq "github.com/bytedance/sonic/unquote"
+	"github.com/abdullayev13/sonic/encoder"
+	"github.com/abdullayev13/sonic/internal/native"
+	"github.com/abdullayev13/sonic/internal/native/types"
+	"github.com/abdullayev13/sonic/internal/rt"
+	uq "github.com/abdullayev13/sonic/unquote"
 	"github.com/chenzhuoyu/base64x"
-	"github.com/go-shafaq/sonic/encoder"
-	"github.com/go-shafaq/sonic/internal/native"
-	"github.com/go-shafaq/sonic/internal/native/types"
-	"github.com/go-shafaq/sonic/internal/rt"
 )
 
 var typeByte = rt.UnpackEface(byte(0)).Type

@@ -24,10 +24,10 @@ import (
 	"io"
 	"reflect"
 
-	"github.com/bytedance/sonic/option"
-	"github.com/go-shafaq/sonic/decoder"
-	encoder "github.com/go-shafaq/sonic/encoder"
-	"github.com/go-shafaq/sonic/internal/rt"
+	"github.com/abdullayev13/sonic/decoder"
+	encoder "github.com/abdullayev13/sonic/encoder"
+	"github.com/abdullayev13/sonic/internal/rt"
+	"github.com/abdullayev13/sonic/option"
 )
 
 type frozenConfig struct {

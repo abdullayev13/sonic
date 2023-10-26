@@ -23,9 +23,9 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/bytedance/sonic/option"
-	"github.com/go-shafaq/sonic/internal/resolver"
-	"github.com/go-shafaq/sonic/internal/rt"
+	"github.com/abdullayev13/sonic/internal/resolver"
+	"github.com/abdullayev13/sonic/internal/rt"
+	"github.com/abdullayev13/sonic/option"
 )
 
 type _Op uint8

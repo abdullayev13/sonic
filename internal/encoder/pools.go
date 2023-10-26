@@ -23,9 +23,9 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/bytedance/sonic/option"
-	"github.com/go-shafaq/sonic/internal/caching"
-	"github.com/go-shafaq/sonic/internal/rt"
+	"github.com/abdullayev13/sonic/internal/caching"
+	"github.com/abdullayev13/sonic/internal/rt"
+	"github.com/abdullayev13/sonic/option"
 )
 
 const (
